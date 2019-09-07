@@ -2,7 +2,7 @@ def square_array(array)
   
   index = 0
   
- while array.length > index do
+ while array[index] do
    
   puts array[index] ** 2
   
