@@ -1,12 +1,12 @@
 def square_array(array)
   
- index = 0
+ i = 0
   
- while array[index] do
+ while i <= array.length do
    
-  puts array[index] ** 2
+  puts array[i] ** 2
   
-  index += 1 
+  i += 1 
   
   end
   
